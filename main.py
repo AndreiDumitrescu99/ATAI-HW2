@@ -30,7 +30,7 @@ def train_loop(
 
     if start_from_pretrained_model != None:
         print("Loading pretrained model...")
-        net.load_state_dict(th.load('C:\\Users\\andre\\Desktop\\Master - 2\\ATAI\\HW2\\models\\last_try_task2_2.pt'))
+        net.load_state_dict(th.load(start_from_pretrained_model))
 
     net = net.to(cuda0)
 
