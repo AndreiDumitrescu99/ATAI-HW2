@@ -1,0 +1,1 @@
+python main.py --task 2 --dataset_path ./task2/train_data/annotations.csv --path_to_save_best_val_loss ./models/task2_from_pretrained.pt --path_to_save_best_val_acc ./models/task2_best_acc_from_pretrained.pt --start_from_pretrained_model ./models/task1.pt

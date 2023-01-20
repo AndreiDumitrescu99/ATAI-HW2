@@ -1,0 +1,1 @@
+python test.py --dataset_path ./task2/val_data/ --model_path ./models/task2_from_pretrained.pt --submit_path submit.csv
